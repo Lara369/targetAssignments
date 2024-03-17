@@ -81,7 +81,7 @@ public class Assignment1 {
             }
             else{
                 System.out.print("     ");
-            }c
+            }
             count++;
         }
 
