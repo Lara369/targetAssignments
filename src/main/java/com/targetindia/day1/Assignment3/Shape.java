@@ -1,5 +1,5 @@
 package com.targetindia.day1.Assignment3;
-public class Shape {
+public abstract class Shape {
     public String color = "red";
     public boolean filled = true;
     public Shape(){
@@ -34,7 +34,8 @@ public class Shape {
         String ans ="| Shape | " + "A Shape with color of "+ color+" and "+fill;
         return ans;
     }
-
+    public abstract double getPerimeter();
+    public abstract double getArea();
 }
 class Circle extends Shape {
     public double radius = 1.0;
